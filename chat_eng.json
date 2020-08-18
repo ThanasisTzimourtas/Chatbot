@@ -1,0 +1,38 @@
+{"responses": [
+        {"tag": "greeting",
+         "user": ["Hi", "How are you", "Is anyone there?", "Hello"],
+         "chatbot": ["Hello, thanks for visiting our shop! How can i help you?", "Hi customer", "Hi, how can I help?","Hi! What do you want to eat today?","Hello, what do you want to order?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "user": ["Bye", "See you later", "Goodbye"],
+         "chatbot": ["Thanks for visiting", "Have a nice day", "Bye! Come back again soon.","Do you need anything else?"]
+        },
+        {"tag": "thanks",
+         "user": ["Thanks", "Thank you", "That's helpful", "Thank you"],
+         "chatbot": ["Happy to help!", "Any time!", "My pleasure","Do you want anything else? You can always see our beers and refreshments by typing beers or refreshments!","Do you want to take a look our beer or refreshments?? If you do so, type Beer or Refreshments !!"]
+        },
+        {"tag": "payments",
+         "user": ["Do you take credit cards?", "Do you accept Mastercard?", "Are you cash only?" ],
+         "chatbot": ["We accept VISA, Mastercard and AMEX", "We accept most major credit cards"]
+        },
+        {"tag": "opentoday",
+         "user": ["Are you open today?", "When do you open today?", "What are your hours today?"],
+         "chatbot": ["We're open every day from 2pm-12pm", "Our hours are 2pm-9pm every day"]
+        },
+        {"tag": "location",
+         "user": ["Where is your shope?", "Where can i find you?", "What is the location of you shope"],
+         "chatbot": ["If you want to see our nearest shop to you, you can always type 'maps' and google maps will help you to find us!","We are quit large brand. If you want to see all of our loactions please type maps"]
+        },
+         {"tag": "menu",
+         "user": ["What is on the menu?", "Can i see a menu?", "What do you have?"],
+         "chatbot": ["We have pizza and burgers! If you want to see our pizza and burgers type: pizza or burgers", "Of course dear customer! What do you want to eat today?\nWe have pizza and burgers, to check our delicious pizza type 'pizza', to order one of our king size burgers, please type 'burgers'"]
+        },
+         {"tag": "order",
+         "user": ["Can i order please?", "How can i make an order please?", "Can i make an order please?", "I am ready to order"],
+         "chatbot": ["That is wonderfull, if you like to order please type: Order", "If you are ready to make an order, please type: order"]
+        }
+   ]
+}
+
+
