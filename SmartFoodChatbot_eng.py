@@ -22,10 +22,10 @@ Refreshmentsnames = []
 OrderRe = []
 
 
-filemenu = open("menu1.csv", "r")
+filemenu = open("foodmenu.csv", "r")
 reader =  csv.reader(filemenu)
 
-with open("chat_eng.json") as file:
+with open("chat_tags.json") as file:
     data = json.load(file)
 
 try:
